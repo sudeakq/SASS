@@ -1,0 +1,19 @@
+.home{
+    @extend %align-center;
+    height: 80px;
+
+    &-container{
+        @extend %align-center;
+        flex-direction: column;
+
+        &-texttwo{
+        font-size: large;
+        }
+        &-texttwo{
+        max-width: 600px;
+        width: 100%;
+        }
+}}
+
+
+
